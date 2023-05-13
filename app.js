@@ -31,21 +31,17 @@ form.addEventListener('submit', function(event) {
 
 function iniciar () {
   const redNeuronal = new brain.NeuralNetwork();
-  
-  var datos;
 
   fetch('train.json')
   .then(response => response.json())
   .then(data => {
     // Aquí puedes trabajar con los datos obtenidos
-    datos = data;
+    redNeuronal.train(data);
   })
   .catch(error => {
     console.error('Error:', error);
   });
 
-  
-  redNeuronal.train(datos);
   let resultado;
   
   const json = jsonData || { "JS": 0, "PY": 0, "TS": 0, "PANDAS": 0, "Mobile": 0, "Android": 0, "React": 0, "Angular": 0, "Node.js": 0, "SQL": 0 };
