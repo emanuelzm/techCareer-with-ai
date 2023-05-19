@@ -1,0 +1,19 @@
+{
+  "name": "techcareer-with-ai",
+  "version": "1.0.0",
+  "description": "What's career is ... ? - With AI | For AI Hackfest by MLH",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emanuelzm/techCareer-with-ai.git"
+  },
+  "author": "EmanuelZM",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/emanuelzm/techCareer-with-ai/issues"
+  },
+  "homepage": "https://github.com/emanuelzm/techCareer-with-ai#readme"
+}
